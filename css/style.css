@@ -1,0 +1,49 @@
+ /* Estilos CSS */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+  }
+
+  input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4cafafa8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: aqua;
+
+  }
+
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
